@@ -9,8 +9,6 @@ Generate a new, random, and unique password that matches your specific criteria 
 ---
 ## Images of Deployed Web Page
 ![Image 1](path-for-image)
-
 ![Image 2](path-for-image)
-
 ![Image 3](path-for-image)
 ---
