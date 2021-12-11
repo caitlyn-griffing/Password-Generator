@@ -97,14 +97,15 @@ button {
 
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */ 
   z-index: 1; /* sit on top */
-  left: 0;
-  top: 0;
-  width: 350px; /* 350px */
-  height: 400px; /* Full width (height) */
+  left: 30%;
+  top: 20px;
+  width: 400px; /* 350px */
+  height: 475px; /* Full width (height) */
   overflow: auto; /* Enable scroll if needed */
   background-color: #cecece; /* Fallback background color */
+  border: 3.5px solid #898989;
   border-radius: 10px;
   /* margin: 0 auto;
   padding: 25px; */
@@ -131,6 +132,7 @@ button {
 
 h2 {
   text-align: center;
+  font-size: 1.75em;
 }
 
 /** ----- Each individual setting ----- */
@@ -140,7 +142,9 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin: 15px 0;
+  font-size: 1.50em;
 }
+
 
 /* input[type=checkbox] {
   margin-right: 0px;
