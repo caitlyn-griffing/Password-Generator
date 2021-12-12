@@ -17,19 +17,22 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <!-- <button class="btn" id="copy">Copy Password
+        </button> -->
         <div class="card-body">
           <textarea
-            readonly
-            id="password"
-            placeholder="Click the button below to choose your preferences!"
+            id="passwordResult"
+            placeholder="Generate a password by clicking the button below to choose your preferences!"
             aria-label="Generated Password"
           ></textarea>
         </div>
+       
+      
 
         <!-- Open Modal Button -->
 
         <div class="card-footer">
-          <button id="open" class="btn">Choose Password Preferences</button>
+          <button id="open" class="btn">Choose Preferences</button>
         </div>
 
         <!-- xxxxxxx   Modal   xxxxxxx -->
@@ -59,8 +62,8 @@
               <input type="checkbox" id="symbols" checked />
             </div>
           </div>
-          <button class="btn" id="generate">
-            Confirm Options
+          <button class="confirm-btn" id="generate">
+            Confirm Preferences
           </button>
         </div>
       </div>

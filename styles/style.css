@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 *,
 *::before,
 *::after {
@@ -40,6 +42,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
@@ -52,6 +55,11 @@ header {
 
 .card-body {
   min-height: 100px;
+}
+
+textarea {
+  word-wrap: break-word;
+	max-width: calc(100% - 40px);
 }
 
 .card-footer {
@@ -72,7 +80,7 @@ header {
   clear: both;
 }
 
-.btn {
+.btn, .confirm-btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
   border-radius: 25px;
@@ -146,15 +154,7 @@ h2 {
 }
 
 
-/* input[type=checkbox] {
-  margin-right: 0px;
-} */
-
-.float-right {
-  float: right;
-}
-
-#password {
+#passwordResult {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
