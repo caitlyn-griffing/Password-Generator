@@ -11,7 +11,7 @@ Generate a new, random, and unique password that matches your specific criteria 
 
 ## Important Links
 
-- [Deployed URL](caitlyn-griffing.github.io/password-generator/)
+- [Deployed URL](https://caitlyn-griffing.github.io/Password-Generator/)
 
 - [GitHub URL](https://github.com/caitlyn-griffing/Password-Generator)
 
